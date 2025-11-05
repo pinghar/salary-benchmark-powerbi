@@ -1,36 +1,39 @@
-# salary-benchmark-powerbi
-Power BI dashboard benchmarking salaries across roles and skills
-# 💼 Salary Analysis & Market Benchmarking Dashboard
+# 💼 Salary Analysis & Market Benchmarking Dashboard (Power BI)
 
-## 🧠 Scenario
-Your client, an HR consulting firm, needs evidence-based insights to benchmark salaries across roles and skills.
-
-## 📊 Dataset
-Singapore job postings (Nov 2022 – Sep 2023)  
-Fields: Job Title, Skill, Salary Range, Position Level, Employment Type, Posting Date, Company Name.
-
-## 🧰 Tools
-Power BI Desktop | DAX | Power Query | Data Modeling
-
-## 📈 Dashboard Highlights
-![Dashboard](images/dashboard_overview.png)
-
-- **Total Postings by Skill** – identifies market demand.
-- **Average Salary Trend** – tracks MoM movement.
-- **Top Role / Skill** – summarizes leadership insights.
-- **Interactive Filters** – date and employment type.
-
-## 💡 Key Insights
-- Engineering & IT dominate demand (≈ 53 k postings).
-- Average salary ≈ 4.68 k SGD / month.
-- Salaries rebounded +10 % MoM after Mar 2023.
-- Highest-paying skill: Risk Management.
-
-## 🏁 Business Recommendations
-1. Focus hiring strategies on Engineering & IT domains.  
-2. Review Risk Management pay scales to remain competitive.  
-3. Continue monitoring salary recovery trends 2024+.
+This Power BI dashboard analyzes Singapore job postings (Nov 2022 – Sep 2023), benchmarking average salaries, skill demand, and role popularity for HR consulting insights.
 
 ---
 
-> 📂 Open `Salary_Benchmark.pbix` in Power BI Desktop to explore interactively.
+## 📊 Dashboard Preview
+![Salary Dashboard](images/dashboard_overview.png)
+
+---
+
+## 📈 Key Insights
+- **Top Skills by Demand:** Engineering and IT dominate with over 50 K postings.
+- **Average Salary:** 4.68 K SGD (selected period).
+- **Trend:** Salaries dipped early 2023 and recovered by mid-year (+10 % MoM).
+- **Top Role:** **Supervisor**  
+- **Top Skill by Pay:** **Risk Management**
+
+---
+
+## 🧰 Tools & Techniques
+Power BI Desktop | Power Query | DAX | GitHub | VS Code
+
+---
+
+## 🗂️ Files
+| File | Description |
+|------|--------------|
+| `Salary_Benchmark.pbix` | Power BI report file |
+| `data/SGJobData.csv` | Source dataset |
+| `images/dashboard_overview.png` | Dashboard preview |
+| `README.md` | Project documentation |
+
+---
+
+## 🏁 How to Use
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/pinghar/salary-benchmark-powerbi.git
